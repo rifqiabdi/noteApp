@@ -20,6 +20,16 @@ const Home = () => {
       createdAt: new Date(),
     },
     {
+      title: "Materi react",
+      description: "Materi react dapat diakse di react.dev",
+      createdAt: new Date(),
+    },
+    {
+      title: "Materi react",
+      description: "Materi react dapat diakse di react.dev",
+      createdAt: new Date(),
+    },
+    {
       title: "Lagu favorit",
       description:
         "Hindia - Secukupnya, Hindia - Rumah Ke Rumah, Fiersa - April, Fiersa - Celengan Rindu",
@@ -28,7 +38,7 @@ const Home = () => {
   ];
   return (
     <div className="py-10 sm:py-10">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl px-6 lg:px-8">
         <div className="mx-auto  lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
             Note Application
