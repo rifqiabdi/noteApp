@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function NoteCard({ title, createdAt, description, id, index, onDelete }) {
   return (
     <body className=" container mx-auto items-start ">
-      <div className="bg-gray-200 rounded-xl p-5">
+      <div className="bg-gray-200 shadow-md rounded-xl p-5">
         <h2 className="text-xl font-bold mb2">{title}</h2>
         <div className="text-sm">{createdAt}</div>
         <div className="text-black leading-relaxed">{description}</div>
