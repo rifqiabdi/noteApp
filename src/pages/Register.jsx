@@ -24,7 +24,7 @@ function Register() {
     <body className=" bg-gray-600">
       <div class="flex items-center justify-center min-h-screen">
         <div className="w-full max-w-md bg-gray-100 rounded-lg shadow-md p-6">
-          <h2 class="text-2xl font-semibold mb-6 text-center">Login</h2>
+          <h2 class="text-2xl font-semibold mb-6 text-center">Register</h2>
           <form
             onSubmit={(event) => {
               onSubmitHandler(event);
@@ -69,7 +69,7 @@ function Register() {
                   type="submit"
                   class="w-full bg-blue-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300"
                 >
-                  Login
+                  Register
                 </button>
               ) : (
                 <button
@@ -77,7 +77,7 @@ function Register() {
                   type="submit"
                   disabled
                 >
-                  Login
+                  Register
                 </button>
               )}
             </div>
